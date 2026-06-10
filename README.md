@@ -37,7 +37,8 @@ Before we wire everything we need the prepare the connectors. For this you need 
 We also need to prepare the case. This is pretty straight forward as you only need to add the heat inserts.
 
 ### Wiring
-We will start with the magnetic connectors we have prepared. We need to wire the cables to the pins. It is probably a good idea to use heat shrink tubing to isolate the exposed pins right by eachother but you dont have to. Once the wires are soldered to them we take them and mount them inside the case. 
+We will start with the magnetic connectors we have prepared. We need to wire the cables to the pins. It is probably a good idea to use heat shrink tubing to isolate the exposed pins right by eachother but you dont have to. Once the wires are soldered to them we take them and mount them inside the case.
+Look at the [schematics](./pics) and at the [wiring_guides](./pics) for help.
 
 You can wire them to the mcu now. You also need to wire the rows and columns from the pcb to the mcu. For this you can take a look at the pcb but I will also add pictures once it's build.
 At last you can wire the battery.
