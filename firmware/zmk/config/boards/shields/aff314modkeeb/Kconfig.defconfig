@@ -1,0 +1,6 @@
+if SHIELD_AFF314MODKEEB
+
+config ZMK_KEYBOARD_NAME
+    default "AFF314MODKEEB"
+
+endif

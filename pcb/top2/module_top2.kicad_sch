@@ -604,6 +604,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "left 8pin"
+		(exclude_from_sim no)
+		(at 68.326 130.302 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "396eb478-02b4-4732-b697-86b5f2391182")
+	)
+	(text "right 8pin"
+		(exclude_from_sim no)
+		(at 111.76 130.048 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f769c93b-79d8-46ab-aee9-5c071ffe7a7c")
+	)
 	(junction
 		(at 133.35 92.71)
 		(diameter 0)

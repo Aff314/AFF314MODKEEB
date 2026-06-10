@@ -1,0 +1,2 @@
+config SHIELD_AFF314MODKEEB
+    def_bool $(shields_list_contains, aff314modkeeb)

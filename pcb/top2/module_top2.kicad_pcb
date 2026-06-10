@@ -51,7 +51,7 @@
 		(capping no)
 		(filling no)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55555555_57555550)
+			(layerselection 0x00000000_00000000_55555555_575555ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
@@ -80,7 +80,7 @@
 			(sketchdnponfab yes)
 			(crossoutdnponfab yes)
 			(subtractmaskfromsilk no)
-			(outputformat 5)
+			(outputformat 1)
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
@@ -144,12 +144,6 @@
 		(path "/057e576d-7d4d-4a04-8116-5362f16d0c25")
 		(sheetname "/")
 		(sheetfile "module_top2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -782,7 +776,6 @@
 			)
 		)
 		(model "/Users/affe/Desktop/AFF314MODKEEB/AFFE3D/keycap.step"
-			(hide yes)
 			(offset
 				(xyz 0 125 8.5)
 			)
@@ -851,12 +844,6 @@
 		(path "/bb447e73-94a6-4915-bacd-1cbf95ad13ac")
 		(sheetname "/")
 		(sheetfile "module_top2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1489,7 +1476,6 @@
 			)
 		)
 		(model "/Users/affe/Desktop/AFF314MODKEEB/AFFE3D/keycap.step"
-			(hide yes)
 			(offset
 				(xyz 0 125 8.5)
 			)
@@ -1558,12 +1544,6 @@
 		(path "/7036d1c5-526f-49c8-84fc-b9196093df7c")
 		(sheetname "/")
 		(sheetfile "module_top2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2196,7 +2176,6 @@
 			)
 		)
 		(model "/Users/affe/Desktop/AFF314MODKEEB/AFFE3D/keycap.step"
-			(hide yes)
 			(offset
 				(xyz 0 125 8.5)
 			)
@@ -2296,6 +2275,17 @@
 			(layer "F.CrtYd")
 			(uuid "d78d1117-8878-4054-bf2c-0f13065b4c9d")
 		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "b82c91ef-e1d4-4f2f-b9bc-fb064d36cdda")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 2.2 2.2)
@@ -2362,12 +2352,6 @@
 		(path "/099f2081-4bd2-4495-8c7b-f023020bcf5d")
 		(sheetname "/")
 		(sheetfile "module_top2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3000,9 +2984,19 @@
 			)
 		)
 		(model "/Users/affe/Desktop/AFF314MODKEEB/AFFE3D/keycap.step"
-			(hide yes)
 			(offset
 				(xyz 0 125 8.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "${KIPRJMOD}/module_top2_case.stp"
+			(offset
+				(xyz -9 11.5 -10)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -3069,12 +3063,6 @@
 		(path "/cc753377-2d71-407c-8bec-91357f05fe8b")
 		(sheetname "/")
 		(sheetfile "module_top2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3707,7 +3695,6 @@
 			)
 		)
 		(model "/Users/affe/Desktop/AFF314MODKEEB/AFFE3D/keycap.step"
-			(hide yes)
 			(offset
 				(xyz 0 125 8.5)
 			)
@@ -3776,12 +3763,6 @@
 		(path "/8ac44fc5-9f43-4b72-9c5e-a62bcd74c95e")
 		(sheetname "/")
 		(sheetfile "module_top2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4414,7 +4395,6 @@
 			)
 		)
 		(model "/Users/affe/Desktop/AFF314MODKEEB/AFFE3D/keycap.step"
-			(hide yes)
 			(offset
 				(xyz 0 125 8.5)
 			)
@@ -4483,12 +4463,6 @@
 		(path "/1134e10a-84ef-4442-a541-2bf9c36bbfcd")
 		(sheetname "/")
 		(sheetfile "module_top2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5121,7 +5095,6 @@
 			)
 		)
 		(model "/Users/affe/Desktop/AFF314MODKEEB/AFFE3D/keycap.step"
-			(hide yes)
 			(offset
 				(xyz 0 125 8.5)
 			)
@@ -5190,12 +5163,6 @@
 		(path "/d50cbef1-ac5a-4415-8b2f-23a15a2500ea")
 		(sheetname "/")
 		(sheetfile "module_top2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5828,7 +5795,6 @@
 			)
 		)
 		(model "/Users/affe/Desktop/AFF314MODKEEB/AFFE3D/keycap.step"
-			(hide yes)
 			(offset
 				(xyz 0 125 8.5)
 			)
@@ -5897,12 +5863,6 @@
 		(path "/938fc1a7-faaa-42e0-a3af-34ad203e7051")
 		(sheetname "/")
 		(sheetfile "module_top2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6535,7 +6495,6 @@
 			)
 		)
 		(model "/Users/affe/Desktop/AFF314MODKEEB/AFFE3D/keycap.step"
-			(hide yes)
 			(offset
 				(xyz 0 125 8.5)
 			)
@@ -6635,6 +6594,17 @@
 			(layer "F.CrtYd")
 			(uuid "eaa179ac-5ff8-4cf0-b953-f1877faf711d")
 		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "fd4586bb-7b35-4aaf-8f14-12daf22bcc40")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 2.2 2.2)
@@ -6701,12 +6671,6 @@
 		(path "/0fa3e517-1a7d-45c1-8e6e-b2172777cd6a")
 		(sheetname "/")
 		(sheetfile "module_top2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7339,7 +7303,6 @@
 			)
 		)
 		(model "/Users/affe/Desktop/AFF314MODKEEB/AFFE3D/keycap.step"
-			(hide yes)
 			(offset
 				(xyz 0 125 8.5)
 			)
@@ -7408,12 +7371,6 @@
 		(path "/7584ebb6-0d58-43bf-8189-9861e6b84cd0")
 		(sheetname "/")
 		(sheetfile "module_top2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8046,7 +8003,6 @@
 			)
 		)
 		(model "/Users/affe/Desktop/AFF314MODKEEB/AFFE3D/keycap.step"
-			(hide yes)
 			(offset
 				(xyz 0 125 8.5)
 			)
@@ -8115,12 +8071,6 @@
 		(path "/32c4b647-708c-4977-81f6-1c980931f105")
 		(sheetname "/")
 		(sheetfile "module_top2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8753,7 +8703,6 @@
 			)
 		)
 		(model "/Users/affe/Desktop/AFF314MODKEEB/AFFE3D/keycap.step"
-			(hide yes)
 			(offset
 				(xyz 0 125 8.5)
 			)
@@ -8822,12 +8771,6 @@
 		(path "/b7a580a7-ff61-40f5-aeec-cf2b3527fac1")
 		(sheetname "/")
 		(sheetfile "module_top2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9460,7 +9403,6 @@
 			)
 		)
 		(model "/Users/affe/Desktop/AFF314MODKEEB/AFFE3D/keycap.step"
-			(hide yes)
 			(offset
 				(xyz 0 125 8.5)
 			)
@@ -9529,12 +9471,6 @@
 		(path "/b3f3e8f2-85ef-430e-a453-798852d4746a")
 		(sheetname "/")
 		(sheetfile "module_top2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10167,7 +10103,6 @@
 			)
 		)
 		(model "/Users/affe/Desktop/AFF314MODKEEB/AFFE3D/keycap.step"
-			(hide yes)
 			(offset
 				(xyz 0 125 8.5)
 			)
@@ -10236,12 +10171,6 @@
 		(path "/548f50cd-05d4-47bc-be5b-f07e7896e293")
 		(sheetname "/")
 		(sheetfile "module_top2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10874,7 +10803,6 @@
 			)
 		)
 		(model "/Users/affe/Desktop/AFF314MODKEEB/AFFE3D/keycap.step"
-			(hide yes)
 			(offset
 				(xyz 0 125 8.5)
 			)
@@ -10943,12 +10871,6 @@
 		(path "/a3b46b7f-3f39-45e8-9ed0-4a82bb772b0d")
 		(sheetname "/")
 		(sheetfile "module_top2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11581,7 +11503,6 @@
 			)
 		)
 		(model "/Users/affe/Desktop/AFF314MODKEEB/AFFE3D/keycap.step"
-			(hide yes)
 			(offset
 				(xyz 0 125 8.5)
 			)
@@ -11650,12 +11571,6 @@
 		(path "/161be0ef-a09c-414c-ab39-378efb3791eb")
 		(sheetname "/")
 		(sheetfile "module_top2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12288,7 +12203,6 @@
 			)
 		)
 		(model "/Users/affe/Desktop/AFF314MODKEEB/AFFE3D/keycap.step"
-			(hide yes)
 			(offset
 				(xyz 0 125 8.5)
 			)
@@ -12357,12 +12271,6 @@
 		(path "/4efe5916-5b1a-43c1-bc98-5531e9f93993")
 		(sheetname "/")
 		(sheetfile "module_top2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12995,7 +12903,6 @@
 			)
 		)
 		(model "/Users/affe/Desktop/AFF314MODKEEB/AFFE3D/keycap.step"
-			(hide yes)
 			(offset
 				(xyz 0 125 8.5)
 			)
@@ -13064,12 +12971,6 @@
 		(path "/fa5f52c6-151b-44ed-a141-6dcc588278a6")
 		(sheetname "/")
 		(sheetfile "module_top2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13702,7 +13603,6 @@
 			)
 		)
 		(model "/Users/affe/Desktop/AFF314MODKEEB/AFFE3D/keycap.step"
-			(hide yes)
 			(offset
 				(xyz 0 125 8.5)
 			)
@@ -13771,12 +13671,6 @@
 		(path "/79d1318b-3875-4c62-96a5-40122196b896")
 		(sheetname "/")
 		(sheetfile "module_top2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14409,7 +14303,6 @@
 			)
 		)
 		(model "/Users/affe/Desktop/AFF314MODKEEB/AFFE3D/keycap.step"
-			(hide yes)
 			(offset
 				(xyz 0 125 8.5)
 			)
@@ -14478,12 +14371,6 @@
 		(path "/cf8a576c-14ed-44da-b385-544db852819c")
 		(sheetname "/")
 		(sheetfile "module_top2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15116,7 +15003,6 @@
 			)
 		)
 		(model "/Users/affe/Desktop/AFF314MODKEEB/AFFE3D/keycap.step"
-			(hide yes)
 			(offset
 				(xyz 0 125 8.5)
 			)
@@ -15185,12 +15071,6 @@
 		(path "/b76f4d93-1a21-46a9-8107-c4b32a29a2bd")
 		(sheetname "/")
 		(sheetfile "module_top2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15823,7 +15703,6 @@
 			)
 		)
 		(model "/Users/affe/Desktop/AFF314MODKEEB/AFFE3D/keycap.step"
-			(hide yes)
 			(offset
 				(xyz 0 125 8.5)
 			)
@@ -15923,6 +15802,17 @@
 			(layer "F.CrtYd")
 			(uuid "a8e1077c-6817-4a9e-89d5-94ff7105536a")
 		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "863a5d73-7062-4a2f-be3b-0595b960cb2e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 2.2 2.2)
@@ -16020,6 +15910,17 @@
 			(layer "F.CrtYd")
 			(uuid "76a423c0-50e4-455f-ae36-17d79b04d288")
 		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "26473e3c-229c-4974-b537-5c1eb8ae6409")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 2.2 2.2)
@@ -16086,12 +15987,6 @@
 		(path "/d3c320ab-0df7-4517-8e84-f3acb8260d4f")
 		(sheetname "/")
 		(sheetfile "module_top2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16724,7 +16619,6 @@
 			)
 		)
 		(model "/Users/affe/Desktop/AFF314MODKEEB/AFFE3D/keycap.step"
-			(hide yes)
 			(offset
 				(xyz 0 125 8.5)
 			)
@@ -16824,6 +16718,17 @@
 			(layer "F.CrtYd")
 			(uuid "b0cbbeda-d1a8-4f94-b4ef-4381a09c30e8")
 		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "4098d761-8128-4dc0-ab52-80d42cd701f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 2.2 2.2)
@@ -16921,6 +16826,17 @@
 			(layer "F.CrtYd")
 			(uuid "1c983cfe-b387-4756-bf85-d5c554911407")
 		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "41835a62-10c7-4aa9-ab23-f26127787119")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 2.2 2.2)
@@ -16987,12 +16903,6 @@
 		(path "/3e090365-d477-4234-939e-b66256fa99ce")
 		(sheetname "/")
 		(sheetfile "module_top2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17625,7 +17535,6 @@
 			)
 		)
 		(model "/Users/affe/Desktop/AFF314MODKEEB/AFFE3D/keycap.step"
-			(hide yes)
 			(offset
 				(xyz 0 125 8.5)
 			)
@@ -17728,12 +17637,6 @@
 		(path "/cd5029ea-5267-459f-9f98-ce9307f4acb5")
 		(sheetname "/")
 		(sheetfile "module_top2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17909,12 +17812,6 @@
 		(path "/f80e38fc-3b34-4f20-b41d-db09c484fb1e")
 		(sheetname "/")
 		(sheetfile "module_top2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18090,12 +17987,6 @@
 		(path "/16ee9fc8-91a4-4b7c-952a-90a0a58e0a3c")
 		(sheetname "/")
 		(sheetfile "module_top2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18271,12 +18162,6 @@
 		(path "/1f28f001-4660-40b4-a820-697b3028d8dd")
 		(sheetname "/")
 		(sheetfile "module_top2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18452,12 +18337,6 @@
 		(path "/371d5051-d10b-49e9-9965-f2bc3cdf0fa1")
 		(sheetname "/")
 		(sheetfile "module_top2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18633,12 +18512,6 @@
 		(path "/6f5f7557-6fa8-4c47-a116-e28d98f1bcaf")
 		(sheetname "/")
 		(sheetfile "module_top2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18814,12 +18687,6 @@
 		(path "/8a8e0d0e-5170-499f-824d-abc2290d4677")
 		(sheetname "/")
 		(sheetfile "module_top2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18995,12 +18862,6 @@
 		(path "/ee51a11e-1b6b-4b42-9935-8235e03685db")
 		(sheetname "/")
 		(sheetfile "module_top2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19176,12 +19037,6 @@
 		(path "/c72eca32-6f2e-4c1f-bf8b-42ff1ef19113")
 		(sheetname "/")
 		(sheetfile "module_top2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19357,12 +19212,6 @@
 		(path "/841e7c0e-2de2-4a3f-911b-56a75b3db252")
 		(sheetname "/")
 		(sheetfile "module_top2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19538,12 +19387,6 @@
 		(path "/e9ecfe36-7482-4b62-9669-80965abf428d")
 		(sheetname "/")
 		(sheetfile "module_top2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19719,12 +19562,6 @@
 		(path "/1d26a55f-efbd-4be4-b39a-ff3c4ea41c9e")
 		(sheetname "/")
 		(sheetfile "module_top2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19900,12 +19737,6 @@
 		(path "/ab49004d-bffc-41d6-9b50-2efc2b822d38")
 		(sheetname "/")
 		(sheetfile "module_top2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20081,12 +19912,6 @@
 		(path "/c52b2ba9-d02c-42b1-9094-4da18b6a9cca")
 		(sheetname "/")
 		(sheetfile "module_top2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20262,12 +20087,6 @@
 		(path "/1d1579a0-1200-4c67-9e9e-ebe13c5532a6")
 		(sheetname "/")
 		(sheetfile "module_top2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20443,12 +20262,6 @@
 		(path "/e8eb26fd-cf5e-4a81-b007-b73f2a989ae5")
 		(sheetname "/")
 		(sheetfile "module_top2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20624,12 +20437,6 @@
 		(path "/62ccc5cb-5037-488c-a070-75f1ff9ce389")
 		(sheetname "/")
 		(sheetfile "module_top2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20805,12 +20612,6 @@
 		(path "/e084db7b-752d-40da-9c55-815276ad9abb")
 		(sheetname "/")
 		(sheetfile "module_top2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20986,12 +20787,6 @@
 		(path "/cb313756-9886-4e7c-8f32-5078d2ceef69")
 		(sheetname "/")
 		(sheetfile "module_top2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21167,12 +20962,6 @@
 		(path "/aaa4d1df-1ee0-4221-b5a6-94fde0b8d33c")
 		(sheetname "/")
 		(sheetfile "module_top2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21348,12 +21137,6 @@
 		(path "/db633f2b-3ad4-4e61-9782-d091f7bc70ef")
 		(sheetname "/")
 		(sheetfile "module_top2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21529,12 +21312,6 @@
 		(path "/76874510-3915-4b77-bb25-d338c8a08028")
 		(sheetname "/")
 		(sheetfile "module_top2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21710,12 +21487,6 @@
 		(path "/921bb55e-6963-4ae9-9f8d-bd175d82deab")
 		(sheetname "/")
 		(sheetfile "module_top2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21891,12 +21662,6 @@
 		(path "/f42cacb8-1bd7-4ca7-962c-09c31c2bd309")
 		(sheetname "/")
 		(sheetfile "module_top2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24210,28 +23975,12 @@
 		(uuid "03514169-5669-449a-b7bf-d5af947b1e9c")
 	)
 	(segment
-		(start 174.411 75.766)
-		(end 169.945 71.3)
-		(width 0.3)
-		(layer "B.Cu")
-		(net "ROW 5")
-		(uuid "07bdc62e-6762-4754-aa5a-9e9d11f07563")
-	)
-	(segment
 		(start 220.945 71.3)
 		(end 216.479 75.766)
 		(width 0.3)
 		(layer "B.Cu")
 		(net "ROW 5")
 		(uuid "0b24e90f-c333-43a6-9a98-80cd5543e8f3")
-	)
-	(segment
-		(start 186.945 71.3)
-		(end 182.479 75.766)
-		(width 0.3)
-		(layer "B.Cu")
-		(net "ROW 5")
-		(uuid "0d7e8124-bb85-443d-9215-f46e3811d443")
 	)
 	(segment
 		(start 118.945 71.3)
@@ -24242,6 +23991,14 @@
 		(uuid "0e155093-1eb3-4ec8-b24e-a73f4e97e7a6")
 	)
 	(segment
+		(start 177.056 75.766)
+		(end 172.59 71.3)
+		(width 0.3)
+		(layer "B.Cu")
+		(net "ROW 5")
+		(uuid "11a2b028-2b3f-417a-9045-4e9b11f10de9")
+	)
+	(segment
 		(start 140.411 75.766)
 		(end 148.479 75.766)
 		(width 0.3)
@@ -24250,20 +24007,20 @@
 		(uuid "14d7dbc3-d49a-4a2b-b4da-4e93e248e431")
 	)
 	(segment
-		(start 114.455 75.79)
-		(end 118.945 71.3)
-		(width 0.3)
-		(layer "B.Cu")
-		(net "ROW 5")
-		(uuid "15d9ca17-32b3-4d7e-accb-3c573f0686e7")
-	)
-	(segment
 		(start 131.479 75.766)
 		(end 135.945 71.3)
 		(width 0.3)
 		(layer "B.Cu")
 		(net "ROW 5")
 		(uuid "1b94e8a7-f4a8-40ca-b531-e8ad2654c8bc")
+	)
+	(segment
+		(start 118.945 71.3)
+		(end 114.455 75.79)
+		(width 0.3)
+		(layer "B.Cu")
+		(net "ROW 5")
+		(uuid "264f6790-d4ea-4efd-a98b-0289318b9032")
 	)
 	(segment
 		(start 97.479 75.766)
@@ -24282,6 +24039,30 @@
 		(uuid "2bb0d989-12bf-4b9e-ae2f-cef698e55bf7")
 	)
 	(segment
+		(start 109.58 75.79)
+		(end 105.09 71.3)
+		(width 0.3)
+		(layer "B.Cu")
+		(net "ROW 5")
+		(uuid "2e92bf55-3d73-4b97-88dc-6f298c482a34")
+	)
+	(segment
+		(start 114.455 75.79)
+		(end 109.58 75.79)
+		(width 0.3)
+		(layer "B.Cu")
+		(net "ROW 5")
+		(uuid "433d170f-378b-4f3c-9222-81d5f67f16fa")
+	)
+	(segment
+		(start 186.945 71.3)
+		(end 182.479 75.766)
+		(width 0.3)
+		(layer "B.Cu")
+		(net "ROW 5")
+		(uuid "4a0176ce-65d2-44d3-901e-5dd5b4f69e62")
+	)
+	(segment
 		(start 157.411 75.766)
 		(end 152.945 71.3)
 		(width 0.3)
@@ -24296,14 +24077,6 @@
 		(layer "B.Cu")
 		(net "ROW 5")
 		(uuid "53ec84c4-c493-4722-add4-46dde95b9e59")
-	)
-	(segment
-		(start 182.479 75.766)
-		(end 174.411 75.766)
-		(width 0.3)
-		(layer "B.Cu")
-		(net "ROW 5")
-		(uuid "557389cb-6d5a-4582-af3d-c89b4b83aaf2")
 	)
 	(segment
 		(start 199.479 75.766)
@@ -24322,12 +24095,12 @@
 		(uuid "657e9917-3ece-4933-bf36-82f7a80005ef")
 	)
 	(segment
-		(start 106.435 75.79)
-		(end 114.455 75.79)
+		(start 172.59 71.3)
+		(end 169.945 71.3)
 		(width 0.3)
 		(layer "B.Cu")
 		(net "ROW 5")
-		(uuid "833bc3e2-0c87-4a46-a81c-ae3e7b7bda4a")
+		(uuid "7678ed2c-93ba-444f-8829-ab1eaa6fcf24")
 	)
 	(segment
 		(start 216.479 75.766)
@@ -24370,6 +24143,14 @@
 		(uuid "b270552e-785f-43ae-8a1e-443c2d49994f")
 	)
 	(segment
+		(start 105.09 71.3)
+		(end 101.945 71.3)
+		(width 0.3)
+		(layer "B.Cu")
+		(net "ROW 5")
+		(uuid "b30e3500-c969-4001-9838-5943742e2deb")
+	)
+	(segment
 		(start 80.479 75.766)
 		(end 84.945 71.3)
 		(width 0.3)
@@ -24392,14 +24173,6 @@
 		(layer "B.Cu")
 		(net "ROW 5")
 		(uuid "c183f9fd-b6a1-4a06-b4c5-ff8fd59c2ad2")
-	)
-	(segment
-		(start 101.945 71.3)
-		(end 106.435 75.79)
-		(width 0.3)
-		(layer "B.Cu")
-		(net "ROW 5")
-		(uuid "c93cea14-f24b-4d17-ba09-51277a254c05")
 	)
 	(segment
 		(start 89.411 75.766)
@@ -24434,6 +24207,14 @@
 		(uuid "def12fb5-2788-4608-b54c-93d05532d13d")
 	)
 	(segment
+		(start 182.479 75.766)
+		(end 177.056 75.766)
+		(width 0.3)
+		(layer "B.Cu")
+		(net "ROW 5")
+		(uuid "e2eef72a-6a2c-4b6b-b7a3-cbcae5b23989")
+	)
+	(segment
 		(start 67.945 71.3)
 		(end 72.411 75.766)
 		(width 0.3)
@@ -24464,6 +24245,14 @@
 		(layer "B.Cu")
 		(net "ROW 4")
 		(uuid "03b2f91c-c381-4805-9a62-706a87fa7f5e")
+	)
+	(segment
+		(start 63.479 92.766)
+		(end 56.611 92.766)
+		(width 0.3)
+		(layer "B.Cu")
+		(net "ROW 4")
+		(uuid "04daed40-de01-4cfb-8f36-808df28d1de7")
 	)
 	(segment
 		(start 216.479 92.766)
@@ -24504,14 +24293,6 @@
 		(layer "B.Cu")
 		(net "ROW 4")
 		(uuid "325ff9a9-8bfe-4886-8941-8f1ab7246832")
-	)
-	(segment
-		(start 50.945 88.3)
-		(end 55.411 92.766)
-		(width 0.3)
-		(layer "B.Cu")
-		(net "ROW 4")
-		(uuid "3aa6b9cd-26ce-4a9b-987a-c492fb740b44")
 	)
 	(segment
 		(start 131.479 92.766)
@@ -24576,6 +24357,14 @@
 		(layer "B.Cu")
 		(net "ROW 4")
 		(uuid "60f4902f-a78d-41ec-8818-553bf749bbbc")
+	)
+	(segment
+		(start 52.145 88.3)
+		(end 50.945 88.3)
+		(width 0.3)
+		(layer "B.Cu")
+		(net "ROW 4")
+		(uuid "75ae58fa-c73f-48b9-984e-ff10a7777dea")
 	)
 	(segment
 		(start 199.479 92.766)
@@ -24666,20 +24455,20 @@
 		(uuid "bfa98cde-0d32-4e79-a531-9a245f847080")
 	)
 	(segment
-		(start 55.411 92.766)
-		(end 63.479 92.766)
-		(width 0.3)
-		(layer "B.Cu")
-		(net "ROW 4")
-		(uuid "c780d2f7-ea33-4179-906f-6941274c629d")
-	)
-	(segment
 		(start 169.945 88.3)
 		(end 174.411 92.766)
 		(width 0.3)
 		(layer "B.Cu")
 		(net "ROW 4")
 		(uuid "cae91bee-6900-4259-9b7b-1935ff54acdf")
+	)
+	(segment
+		(start 56.611 92.766)
+		(end 52.145 88.3)
+		(width 0.3)
+		(layer "B.Cu")
+		(net "ROW 4")
+		(uuid "cd88b342-4f64-44d2-b291-0aa9e69d189e")
 	)
 	(segment
 		(start 203.945 88.3)
