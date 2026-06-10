@@ -7,6 +7,7 @@ You can attach the modules on top and on the right side.
 So far I have designed three modules.
 
 One for the right side. It has arrow-keys plus six extra keys that can be used for what ever you like.
+[right_picture](./pics)
 
 
 The two that go on top are either a number or f-key row or a number plus f-key module. I decided to only order the pcbs for the number plus f-key module since you can type the numbers and f-keys also with layers so when I really need the f-keys or numbers the others don't hurt and it would take away from that convenience I wanted if you have so many modules laying around.
