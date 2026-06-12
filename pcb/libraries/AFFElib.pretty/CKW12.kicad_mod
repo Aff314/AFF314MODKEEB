@@ -1,0 +1,134 @@
+(footprint "CKW12"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "SW21"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "95b833dc-3ef0-4c75-b665-4269337b25d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "CKW12"
+		(at 0 -5.74 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d9efd29-9530-4c37-b732-a846be48d4c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6341d512-f3be-4685-8897-60f1e1684319")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
+		(at 0 1.95 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ee2a6b19-8cbf-4872-8228-c2082d2c5ddf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -9 -9)
+		(end 9 9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "609a8133-58b5-4431-a50d-1de524cfb441")
+	)
+	(pad "A" thru_hole circle
+		(at -2.475 7.475)
+		(size 1.524 1.524)
+		(drill oval 0.82 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0b968c03-8dd0-4ffa-b27f-86472becbe44")
+	)
+	(pad "B" thru_hole circle
+		(at 2.525 7.475)
+		(size 1.524 1.524)
+		(drill oval 0.82 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3cb6ef75-01dc-4fdc-a6ee-ecd9dce8fe83")
+	)
+	(pad "C" thru_hole circle
+		(at 0.025 7.475)
+		(size 1.524 1.524)
+		(drill oval 0.82 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "07f12999-081b-46b0-a9d0-18823cd9b779")
+	)
+	(pad "S1" thru_hole circle
+		(at 2.525 -7.625)
+		(size 1.524 1.524)
+		(drill oval 0.82 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "31319f96-907d-4697-8085-f1e5375c2404")
+	)
+	(pad "S2" thru_hole circle
+		(at -2.475 -7.625)
+		(size 1.524 1.524)
+		(drill oval 0.82 0.8128)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "83cb4c23-ed7c-4d08-9ee9-4011e15e54f1")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/AFFE3D/ckw12_housing.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+	(model "${KIPRJMOD}/AFFE3D/ckw12_wheel_fix.stp"
+		(offset
+			(xyz 0 -30 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)
