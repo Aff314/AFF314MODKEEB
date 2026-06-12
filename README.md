@@ -42,3 +42,9 @@ Look at the [schematics](./pics) and at the [wiring_guides](./pics) for help.
 
 You can wire them to the mcu now. You also need to wire the rows and columns from the pcb to the mcu. For this you can take a look at the pcb but I will also add pictures once it's build.
 At last you can wire the battery.
+
+
+## Fallout
+I made this keyboard for fallout from hackclub and they give the chance for you to show off your project in a magazine. This is my page for zine. I will change it once I've built it irl because the real pictures would make it look way better.
+
+![zine](./zine/ZINE_MODKEEB.png)
